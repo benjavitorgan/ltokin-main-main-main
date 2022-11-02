@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(8, 8, 8);
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(70, 20, 163);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+button.hover {
+    background-color: rgb(53, 14, 124);
+}
+
+img {
+    width: 50vw;
+    height: 100vh;
+    transition: transform 200ms;
+    object-fit: cover;
+}
+
+img.left {
+    transform: translateX(-100vw);
+}
+
+img.right {
+    transform: translateX(100vw);
+}
+
+img.next {
+    display: none;
+}   
+.body {
+    display: flex;
+}
+.izq
+{
+    padding: 100px;
+    background-color:rgb(8, 8, 8);
+    height: 680px;
+    width: 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.volver{
+    height: 150px;
+    width: 225px;
+    transition: background-color 1S ease-in;
+    margin-bottom: 60px;
+}
+
+.volver.hover{
+    background-color: rgb(53, 14, 124);
+}
+
+.done{
+    height: 150px;
+    width: 225px;
+    margin-bottom: 60px;
+    transition: background-color 1S ease-in;
+}
+
+.done.hover {
+    background-color: rgb(53, 14, 124);
+}
+
+
+.botones
+{
+    width: 80%;
+    overflow: hidden;
+    margin-top: 130px;
+    padding: auto;
+    height:auto;
+}
+
+.botonesnum {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 110px;
+    padding: auto;
+    height:auto;
+}
+
+.der
+{
+    padding: 100px;
+    background-color: rgb(8, 8, 8);
+    height: 680px;
+    width: 10%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+}
+
+.arriba
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.medio
+{
+    display: flex;
+}
+.medio2 {
+    display: flex;
+}
+.abajo
+{
+    display: flex;
+}
+.space {
+    display: flex;
+}
+
+.delete {
+    display: flex;
+}
+.btnspace {
+    /*
+    width: 175px;
+    height: 80px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    transition: background-color 1S ease-in;
+    */
+
+    height: 150px;
+    width: 225px;
+    transition: background-color 1S ease-in;
+    margin-bottom: 60px;
+}
+
+.btnspace.hover {
+    background-color: rgb(53, 14, 124);
+}
+
+.btndelete {
+  /*  width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 1S ease-in;
+*/
+    height: 150px;
+    width: 225px;
+    transition: background-color .1s ease-in;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.btndelete.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.btnborrar {
+    /*
+    width: 175px;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    transition: background-color 1S ease-in;
+    */
+    
+    height: 150px;
+    width: 225px;
+    transition: background-color 1S ease-in;
+    margin-bottom: 60px;
+}
+
+.btnborrar.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.boton1
+{
+    width: 300px;
+    height: 200px;
+    margin: 20px 30px;
+    transition: background-color .1s ease-in;
+}
+
+.boton1.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.btnseccionA {
+    /*width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 60px;
+    transition: background-color 1S ease-in; */
+
+    /*  width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 1S ease-in;
+*/
+height: 150px;
+width: 225px;
+transition: background-color 1S ease-in;
+margin-bottom: 60px;
+}
+
+.btnseccionA.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.btnseccionJ {
+    /*width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 60px;
+    transition: background-color 1S ease-in;*/
+
+    /*  width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 1S ease-in;
+*/
+height: 150px;
+width: 225px;
+transition: background-color 1S ease-in;
+margin-bottom: 60px;
+}
+
+.btnseccionJ.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.btnseccionS {
+    /*width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 60px;
+    transition: background-color 1S ease-in;*/
+
+    /*  width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 1S ease-in;
+*/
+height: 150px;
+width: 225px;
+transition: background-color 1S ease-in;
+margin-bottom: 60px;
+}
+
+.txtArea {
+    position: absolute;
+    top: 10vh;
+    left: 15vw;
+    width: 1060px;
+}
+
+.btnseccionS.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.btnseccion0 {
+    /*
+    width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 60px;
+    transition: background-color 1S ease-in;*/
+
+    /*  width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 1S ease-in;
+*/
+height: 150px;
+width: 225px;
+transition: background-color 1S ease-in;
+margin-bottom: 60px;
+}
+
+.btnseccion0.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.btnseccionSS {
+    width: 225px;
+    height: 150px;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 1S ease-in;
+}
+
+.btnseccionSS.hover {
+        background-color: rgb(53, 14, 124);
+}
+
+.textarea{
+    width: 730px;
+    height: 100px;
+    font-size: 30px;
+    margin: auto;
+}
+
+.textareaSS {
+    width: 730px;
+    height: 100px;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 145px;
+}
+.numero {
+    width: 200px;
+    height: 230px;
+    margin: 10px 10px;
+    transition: background-color 1S ease-in;
+}
+
+.numero.hover {
+        background-color: rgb(53, 14, 124);
+}
